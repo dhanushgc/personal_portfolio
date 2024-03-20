@@ -204,7 +204,19 @@ const openSource = {
 const bigProjects = {
   title: "Projects",
   subtitle: "",
-  projects: [
+    projects: [
+    {
+       image: require("./assets/images/ILPproject.png"),
+       projectName: "Enhancing Instruction Level Parallelism",
+            projectDesc: "Enhancing instruction-level parallelism through loop unrolling and dynamic memory disambiguation for high-performance processors.",
+       footerLink: [
+       {
+             name: "View Project",
+             url: "https://github.com/guru449/EnhanceInstructionLevelParallelism/tree/code_update"
+        }
+                //  you can add extra buttons here.
+       ]
+    },
     {
       image: require("./assets/images/disneyproject.png"),
           projectName: "Disney Clone Application",
@@ -223,8 +235,8 @@ const bigProjects = {
         projectDesc: "Developed a predictive model with 83% accuracy using machine learning algorithms to forecast anxiety levels, incorporating A/B testing for enhanced reliability.",
       footerLink: [
         {
-          name: "",
-          url: ""
+          name: "View Paper",
+          url: "https://ieeexplore.ieee.org/document/9788151"
         }
       ]
     }
