@@ -223,8 +223,8 @@ const bigProjects = {
           projectDesc: "Engineered a React.js and Redux-based clone of Disney+, integrating Firebase for a fully functional, user-centric experience.",
       footerLink: [
         {
-          name: "",
-          url: ""
+          name: "View Project",
+          url: "https://github.com/dhanushgc/disney-plus-clone"
         }
         //  you can add extra buttons here.
       ]
