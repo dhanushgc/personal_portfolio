@@ -26,7 +26,7 @@ const greeting = {
       "Software Developer | Data Analyst"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/166Kx8eL4TOK7wR_4rHBYoMgdRl5FeC6r/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/18UbOGrFwX2r-uOInHC55COeySdPamaqt/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
