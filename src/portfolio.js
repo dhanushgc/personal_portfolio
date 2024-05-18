@@ -206,6 +206,18 @@ const bigProjects = {
   subtitle: "",
     projects: [
     {
+       image: require("./assets/images/PD_MRI_Class.png"),
+            projectName: "Parkinson’s Disease Classification Using MRI Images",
+            projectDesc: "Implemented XGBoost, SVM, and Random Forest classifiers to classify PD from MRI images with 78% accuracy. Applied wavelet transformations and GLCM techniques to enhance MRI image quality and extract diagnostic features.",
+       footerLink: [
+       {
+             name: "View Project",
+             url: "https://github.com/dhanushgc/PPMI-Parkinson-s-Disease-Classification-Using-MRI-Images"
+        }
+                //  you can add extra buttons here.
+       ]
+    },
+    {
        image: require("./assets/images/ILPproject.png"),
        projectName: "Enhancing Instruction Level Parallelism",
             projectDesc: "Enhancing instruction-level parallelism through loop unrolling and dynamic memory disambiguation for high-performance processors.",
