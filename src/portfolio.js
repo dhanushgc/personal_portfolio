@@ -66,7 +66,11 @@ https://fontawesome.com/icons?d=gallery */
     {
        "skillName": "Django",
        "fontAwesomeClassname": "fas fa-server"
-    },
+        },
+        {
+            "skillName": "Java Spring Boot",
+            "fontAwesomeClassname": "fab fa-java"
+        },
         {
             "skillName": "Rest API",
             "fontAwesomeClassname": "fas fa-code"
@@ -165,7 +169,14 @@ const techStack = {
 
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
-  experience: [
+    experience: [
+    {
+      role: "Student Assistant",
+      company: "Associated Students Inc. ",
+      companylogo: require("./assets/images/ASI logo.jpg"),
+      date: "Jan 2024 – Present",
+            desc: "Implemented RESTful APIs with Java Spring Boot and created dynamic visualizations using React.js to enhance data integration and accessibility. Developed automated workflows for efficient document processing, streamlining administrative tasks and improving operational efficiency."
+    },
     {
       role: "Senior Analyst (Python Developer)",
       company: "Ernst & Young",
@@ -207,7 +218,7 @@ const bigProjects = {
     projects: [
     {
        image: require("./assets/images/PD_MRI_Class.png"),
-            projectName: "Parkinson’s Disease Classification Using MRI Images",
+            projectName: "Novel Approach to Parkinson’s Disease Classification Using MRI Images",
             projectDesc: "Implemented XGBoost, SVM, and Random Forest classifiers to classify PD from MRI images with 78% accuracy. Applied wavelet transformations and GLCM techniques to enhance MRI image quality and extract diagnostic features.",
        footerLink: [
        {
