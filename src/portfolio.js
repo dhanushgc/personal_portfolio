@@ -175,14 +175,14 @@ const workExperiences = {
       company: "Associated Students Inc. ",
       companylogo: require("./assets/images/ASI logo.jpg"),
       date: "Jan 2024 – Present",
-            desc: "Implemented RESTful APIs with Java Spring Boot and created dynamic visualizations using React.js to enhance data integration and accessibility. Developed automated workflows for efficient document processing, streamlining administrative tasks and improving operational efficiency."
+            desc: "As a Student Assistant, I developed RESTful APIs, implemented unit tests with 70% coverage, and created automated document workflows, enhancing data exchange, reducing bugs, and increasing efficiency by 40%."
     },
     {
       role: "Senior Analyst (Python Developer)",
       company: "Ernst & Young",
       companylogo: require("./assets/images/eylogo.png"),
       date: "June 2022 – July 2023",
-          desc: "Significant improvements were driven in financial processing and API security, enhancing system efficiency by 40% and integrity by 25%. My innovative work on OCR pipelines increased accuracy by 30%, and my efforts in automating email systems and optimizing Azure Cloud deployments boosted efficiency by 35% and timely payments by 20%."
+        desc: "As a Senior Analyst, I developed a scalable backend for Accounts Receivables automation using Python and Django, enhanced API communication, automated OCR workflows, and streamlined Azure deployments."
 
     },
     {
@@ -190,7 +190,7 @@ const workExperiences = {
       company: "Infosys",
       companylogo: require("./assets/images/infosyslogo.png"),
       date: "Sep 2021 – June 2022",
-        desc: "Led cloud migrations and optimized ETL workflows, directly reducing manual data processing and improving data integrity. My work resulted in a 20% increase in data throughput and a 40% faster data processing rate, emphasizing scalability and efficiency."
+        desc: "As a Systems Engineer, I optimized ETL workflows and cloud migrations with Azure, enhanced data throughput and fault tolerance, and automated data validation. Improved API data flow and ensured precise analytics with Python and Azure Databricks."
     },
     {
       role: "Data Analyst Intern",
