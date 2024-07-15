@@ -21,9 +21,9 @@ const illustration = {
 
 const greeting = {
   username: "Dhanush",
-    title: "Hey, I'm Dhanush   weaving magic with code and data!",
+    title: "Hey, I'm Dhanush   Transforming Software Development with Cutting-Edge DevOps and Cloud Solutions",
   subTitle: emoji(
-      "Software Developer | Data Analyst"
+      "Software Developer | DevOps"
   ),
   resumeLink:
     "https://drive.google.com/file/d/18UbOGrFwX2r-uOInHC55COeySdPamaqt/view?usp=sharing", // Set to empty to hide the button
@@ -47,11 +47,11 @@ const skillsSection = {
     subTitle: "PASSIONATE DEVELOPER DEDICATED TO MASTERING EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Building and optimizing backend solutions using Django, Node.JS, and Flask for robust application functionality"
+      "⚡ Building and optimizing backend solutions using Django, Node.js, and Spring Boot for robust application functionality"
     ),
-      emoji("⚡ Crafting engaging and efficient User Interfaces for web and mobile applications with React.js and Angular"),
+      emoji("⚡ Leveraging cloud platforms like Azure for scalable deployments, integrating Docker and Kubernetes for seamless CI/CD pipelines"),
     emoji(
-      "⚡ Leveraging cloud platforms like Azure for scalable deployments, and adept at integrating cloud-based databases and services for enhanced app dynamics"
+      "⚡ Implementing comprehensive monitoring and logging solutions using Azure Monitor and Log Analytics for proactive incident management"
     )
   ],
 
@@ -131,7 +131,8 @@ const educationInfo = {
       desc: "Courses :",
       descBullets: [
           "Advanced Programming, Software Engineering, Advanved Algorithms",
-          "Advanced Artificial Intelligence, Pattern Recognition, Computer Architecture"
+          "Advanced Artificial Intelligence, Pattern Recognition, Computer Architecture",
+          "BlockChain, Distributed Computing"
       ]
     },
     {
@@ -175,14 +176,14 @@ const workExperiences = {
       company: "Associated Students Inc. ",
       companylogo: require("./assets/images/ASI logo.jpg"),
       date: "Jan 2024 – Present",
-            desc: "As a Student Assistant, I developed RESTful APIs, implemented unit tests with 70% coverage, and created automated document workflows, enhancing data exchange, reducing bugs, and increasing efficiency by 40%."
+            desc: "As a Student Assistant, I Migrated microservices to Azure Cloud, implemented Docker containerization, optimized CI/CD pipelines, and enhanced monitoring with Azure Monitor and Log Analytics."
     },
     {
       role: "Senior Analyst (Python Developer)",
       company: "Ernst & Young",
       companylogo: require("./assets/images/eylogo.png"),
       date: "June 2022 – July 2023",
-        desc: "As a Senior Analyst, I developed a scalable backend for Accounts Receivables automation using Python and Django, enhanced API communication, automated OCR workflows, and streamlined Azure deployments."
+        desc: "As a Senior Analyst, Automated data extraction and email handling, integrated frontend interfaces, optimized SQL queries and caching, and developed REST APIs for seamless microservices communication."
 
     },
     {
@@ -190,7 +191,7 @@ const workExperiences = {
       company: "Infosys",
       companylogo: require("./assets/images/infosyslogo.png"),
       date: "Sep 2021 – June 2022",
-        desc: "As a Systems Engineer, I optimized ETL workflows and cloud migrations with Azure, enhanced data throughput and fault tolerance, and automated data validation. Improved API data flow and ensured precise analytics with Python and Azure Databricks."
+        desc: "As a Systems Engineer, Optimized ETL workflows with Azure Functions, implemented fault-tolerant storage solutions, enhanced API throughput by 20%, and automated data validation with Python and Azure Databricks."
     },
     {
       role: "Data Analyst Intern",
