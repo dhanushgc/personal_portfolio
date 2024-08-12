@@ -218,6 +218,18 @@ const bigProjects = {
   subtitle: "",
     projects: [
     {
+            image: require("./assets/images/cloud-storage.png"),
+            projectName: "Asynchronous File Upload System to Cloud Storage",
+            projectDesc: "This project is an Asynchronous File Upload System designed to efficiently handle file uploads to cloud storage (Azure Blob Storage).",
+       footerLink: [
+       {
+             name: "View Project",
+               url: "https://github.com/dhanushgc/Asynchronous-File-Upload-System-to-cloud-storage/tree/master"
+        }
+                //  you can add extra buttons here.
+       ]
+    },
+    {
        image: require("./assets/images/PD_MRI_Class.png"),
             projectName: "Novel Approach to Parkinson’s Disease Classification Using MRI Images",
             projectDesc: "Implemented XGBoost, SVM, and Random Forest classifiers to classify PD from MRI images with 78% accuracy. Applied wavelet transformations and GLCM techniques to enhance MRI image quality and extract diagnostic features.",
