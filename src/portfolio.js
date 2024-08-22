@@ -218,6 +218,18 @@ const bigProjects = {
   subtitle: "",
     projects: [
     {
+            image: require("./assets/images/invoice-extration.png"),
+            projectName: "AI-Powered Invoice Extraction with Vector Embeddings",
+            projectDesc: "Built an AI-powered invoice extraction system using Google Gemini with vector embeddings. Achieved higher accuracy, multilingual support, and scalable automation, moving beyond traditional template-based methods.",
+       footerLink: [
+       {
+             name: "View Project",
+               url: "https://github.com/dhanushgc/GenAI_Learning"
+        }
+                //  you can add extra buttons here.
+       ]
+    },
+    {
             image: require("./assets/images/cloud-storage.png"),
             projectName: "Asynchronous File Upload System to Cloud Storage",
             projectDesc: "This project is an Asynchronous File Upload System designed to efficiently handle file uploads to cloud storage (Azure Blob Storage).",
