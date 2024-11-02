@@ -183,7 +183,7 @@ const workExperiences = {
       role: "Senior Analyst",
       company: "Ernst & Young",
       companylogo: require("./assets/images/eylogo.png"),
-      date: "June 2022 – July 2023",
+      date: "July 2022 – July 2023",
         desc: "Developed high-throughput systems using AWS SDK and S3, boosting data processing capacity by 10x and reducing response times by 40% for critical financial transactions. Built Redis-cached microservices and optimized SQL, enhancing system performance and cross-functional collaboration."
 
     },
