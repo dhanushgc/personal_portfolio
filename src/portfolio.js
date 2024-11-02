@@ -23,7 +23,7 @@ const greeting = {
   username: "Dhanush",
     title: "Hey, I'm Dhanush",
   subTitle: emoji(
-      "Software Developer | DevOps | GenAI"
+      "Software Developer | Cloud | Data Engineering"
   ),
   resumeLink:
     "https://drive.google.com/file/d/18UbOGrFwX2r-uOInHC55COeySdPamaqt/view?usp=sharing", // Set to empty to hide the button
@@ -131,8 +131,9 @@ const educationInfo = {
       desc: "Courses :",
       descBullets: [
           "Advanced Programming, Software Engineering, Advanved Algorithms",
-          "Advanced Artificial Intelligence, Pattern Recognition, Computer Architecture",
-          "BlockChain, Distributed Computing"
+          "Distributed Computing, Software Maintenance, Computer Architecture",
+          "Artificial Intelligence, Pattern Recognition, Computer Simulation"
+          
       ]
     },
     {
@@ -160,7 +161,7 @@ const techStack = {
     },
     {
         Stack: "Frontend",
-      progressPercentage: "60%"
+      progressPercentage: "50%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -172,18 +173,18 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
     experience: [
     {
-      role: "Student Assistant",
+      role: "Building Event Manager",
       company: "Associated Students Inc. ",
       companylogo: require("./assets/images/ASI logo.jpg"),
       date: "Jan 2024 – Present",
-            desc: "As a Student Assistant, I Migrated microservices to Azure Cloud, implemented Docker containerization, optimized CI/CD pipelines, and enhanced monitoring with Azure Monitor and Log Analytics."
+            desc: "Coordinated event management using Excel for scheduling, tracking resources, and ensuring smooth operations within the university's Student Union building."
     },
     {
-      role: "Senior Analyst (Python Developer)",
+      role: "Senior Analyst",
       company: "Ernst & Young",
       companylogo: require("./assets/images/eylogo.png"),
       date: "June 2022 – July 2023",
-        desc: "As a Senior Analyst, Automated data extraction and email handling, integrated frontend interfaces, optimized SQL queries and caching, and developed REST APIs for seamless microservices communication."
+        desc: "Developed high-throughput systems using AWS SDK and S3, boosting data processing capacity by 10x and reducing response times by 40% for critical financial transactions. Built Redis-cached microservices and optimized SQL, enhancing system performance and cross-functional collaboration."
 
     },
     {
@@ -191,7 +192,7 @@ const workExperiences = {
       company: "Infosys",
       companylogo: require("./assets/images/infosyslogo.png"),
       date: "Sep 2021 – June 2022",
-        desc: "As a Systems Engineer, Optimized ETL workflows with Azure Functions, implemented fault-tolerant storage solutions, enhanced API throughput by 20%, and automated data validation with Python and Azure Databricks."
+        desc: "Engineered automated data pipelines with Azure Logic Apps and Python, reducing manual effort by 50% and increasing data accuracy. Established monitoring and logging with Azure Monitor, improving system stability and response times by 20%."
     },
     {
       role: "Data Analyst Intern",
@@ -218,9 +219,33 @@ const bigProjects = {
   subtitle: "",
     projects: [
     {
+            image: require("./assets/images/HPA.jpg"),
+            projectName: "Kubernetes Pod Autoscaler (HPA) using Custom Metrics",
+            projectDesc: "Developed a custom Kubernetes Pod Autoscaler integrated with Prometheus, enabling real-time scaling based on message traffic, reducing infrastructure costs by 25% and enhancing system performance under high- load conditions.",
+       footerLink: [
+       {
+             name: "View Project",
+               url: "https://github.com/itsaravindanand/CECS_574_Custom_Metrics_Driven_HPA_in_Kubernetes"
+        }
+                //  you can add extra buttons here.
+       ]
+    },
+    {
+            image: require("./assets/images/ETL.png"),
+            projectName: "Cloud-Based ETL Pipeline for YouTube Data Analytics",
+        projectDesc: "Built a scalable ETL pipeline on AWS, utilizing EC2, S3, Glue, and Lambda for processing over 1GB of YouTube data with multi - language support, integrating Amazon Athena for rapid insights and boosting processing efficiency by 20%.",
+       footerLink: [
+       {
+             name: "View Project",
+               url: "https://github.com/dhanushgc"
+        }
+                //  you can add extra buttons here.
+       ]
+    },
+    {
             image: require("./assets/images/invoice-extration.png"),
             projectName: "AI-Powered Invoice Extraction with Vector Embeddings",
-            projectDesc: "Built an AI-powered invoice extraction system using Google Gemini with vector embeddings. Achieved higher accuracy, multilingual support, and scalable automation, moving beyond traditional template-based methods.",
+        projectDesc: "Engineered an AI-driven invoice extraction solution leveraging Google Gemini and Python, enhancing data accuracy by 40% and eliminating manual templates with vector embeddings, ensuring scalable, efficient data processing",
        footerLink: [
        {
              name: "View Project",
