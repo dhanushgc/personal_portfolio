@@ -180,7 +180,7 @@ const workExperiences = {
             desc: "Coordinated event management using Excel for scheduling, tracking resources, and ensuring smooth operations within the university's Student Union building."
     },
     {
-      role: "Senior Analyst",
+      role: "Software Engineer",
       company: "Ernst & Young",
       companylogo: require("./assets/images/eylogo.png"),
       date: "July 2022 – July 2023",
