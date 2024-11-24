@@ -23,7 +23,7 @@ const greeting = {
   username: "Dhanush",
     title: "Hey, I'm Dhanush",
   subTitle: emoji(
-      "Software Developer | Cloud | Data Engineering"
+      "A passionate Software Engineer with expertise in Backend Development, Cloud Computing, and Data Engineering. I specialize in building high-performance systems, scalable cloud solutions, and fault-tolerant pipelines."
   ),
   resumeLink:
     "https://drive.google.com/file/d/18UbOGrFwX2r-uOInHC55COeySdPamaqt/view?usp=sharing", // Set to empty to hide the button
@@ -44,15 +44,23 @@ const socialMediaLinks = {
 
 const skillsSection = {
     title: "My Playground",
-    subTitle: "PASSIONATE DEVELOPER DEDICATED TO MASTERING EVERY TECH STACK",
+    subTitle: "PASSIONATE SOFTWARE ENGINEER SPECIALIZING IN BACKEND, CLOUD, AND DATA ENGINEERING",
   skills: [
-    emoji(
-      "⚡ Building and optimizing backend solutions using Django, Node.js, and Spring Boot for robust application functionality"
-    ),
-      emoji("⚡ Leveraging cloud platforms like Azure for scalable deployments, integrating Docker and Kubernetes for seamless CI/CD pipelines"),
-    emoji(
-      "⚡ Implementing comprehensive monitoring and logging solutions using Azure Monitor and Log Analytics for proactive incident management"
-    )
+      emoji(
+          "⚡ Building high-performance microservices with Django, Node.js, and Redis, optimized for scalability and responsiveness in distributed systems"
+      ),
+      emoji(
+          "⚡ Deploying and managing cloud-native applications on AWS and Azure, integrating Kubernetes and Docker for automated scaling and CI/CD"
+      ),
+      emoji(
+          "⚡ Designing fault-tolerant systems with Kafka for batch processing and streamlining data workflows with PySpark and Pandas"
+      ),
+      emoji(
+          "⚡ Securing API integrations using OAuth 2.0 and enabling synchronization across multi-system architectures with robust error handling"
+      ),
+      emoji(
+          "⚡ Developing monitoring and logging systems using Azure Monitor and Log Analytics to proactively detect and resolve incidents"
+      )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -150,20 +158,24 @@ const educationInfo = {
 
 const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
-  experience: [
-    {
-          Stack: "Backend / API", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "Programming",
-        progressPercentage: "80%"
-    },
-    {
-        Stack: "Frontend",
-      progressPercentage: "50%"
-    }
-  ],
+    experience: [
+        {
+            Stack: "Backend Development & APIs", // Reflecting expertise in backend tools and API design
+            experienceYears: "3+ Years", // High proficiency based on resume experience
+        },
+        {
+            Stack: "Cloud Computing & CI/CD", // Representing cloud and deployment expertise
+            experienceYears: "2+ Years", // Solid experience with Kubernetes, Docker, AWS, and Azure
+        },
+        {
+            Stack: "Data Engineering", // Highlighting experience in PySpark, Kafka, and ETL pipelines
+            experienceYears: "2+ Years", // Strong proficiency in data workflows
+        },
+        {
+            Stack: "Frontend Development", // Frontend skills like React and basic web design
+            experienceYears: "1.5+ Years", // Moderate experience as per resume
+        },
+    ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
@@ -173,18 +185,18 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
     experience: [
     {
-      role: "Building Event Manager",
+      role: "Student Assistant",
       company: "Associated Students Inc. ",
       companylogo: require("./assets/images/ASI logo.jpg"),
       date: "Jan 2024 – Present",
-            desc: "Coordinated event management using Excel for scheduling, tracking resources, and ensuring smooth operations within the university's Student Union building."
+            desc: "Maintain ASI websites and applications, integrating Microsoft Office 365 tools to enhance workflows and ensure cross-platform performance and server security."
     },
     {
       role: "Software Engineer",
       company: "Ernst & Young",
       companylogo: require("./assets/images/eylogo.png"),
       date: "July 2022 – July 2023",
-        desc: "Developed high-throughput systems using AWS SDK and S3, boosting data processing capacity by 10x and reducing response times by 40% for critical financial transactions. Built Redis-cached microservices and optimized SQL, enhancing system performance and cross-functional collaboration."
+        desc: "Developed a high-throughput file upload system using AWS S3 and RabbitMQ, scaling capacity by 10x and reducing stakeholder-reported delays. Engineered Redis-cached microservices and optimized APIs with OAuth 2.0, enhancing synchronization across distributed payment systems."
 
     },
     {
@@ -192,7 +204,7 @@ const workExperiences = {
       company: "Infosys",
       companylogo: require("./assets/images/infosyslogo.png"),
       date: "Sep 2021 – June 2022",
-        desc: "Engineered automated data pipelines with Azure Logic Apps and Python, reducing manual effort by 50% and increasing data accuracy. Established monitoring and logging with Azure Monitor, improving system stability and response times by 20%."
+        desc: "Automated SAP data pipelines with Azure Logic Apps and Python, improving data accuracy by 50%. Deployed monitoring systems with Azure Monitor and Log Analytics, cutting incident response times by 20%."
     },
     {
       role: "Data Analyst Intern",
