@@ -292,8 +292,8 @@ const bigProjects = {
     },
     {
        image: require("./assets/images/ILPproject.png"),
-       projectName: "Enhancing Instruction Level Parallelism",
-            projectDesc: "Enhancing instruction-level parallelism through loop unrolling and dynamic memory disambiguation for high-performance processors.",
+        projectName: "Fractal Tree Optimization with Parallelism",
+        projectDesc: "Accelerated tree generation by 12 times through advanced loop unrolling, SIMD, and OpenMP parallelization.",
        footerLink: [
        {
              name: "View Project",
