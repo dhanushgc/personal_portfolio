@@ -185,18 +185,18 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
     experience: [
     {
-      role: "Student Assistant",
+      role: "Graduate Assistant",
       company: "Associated Students Inc. ",
       companylogo: require("./assets/images/ASI logo.jpg"),
       date: "Jan 2024 – Present",
-            desc: "Maintain ASI websites and applications, integrating Microsoft Office 365 tools to enhance workflows and ensure cross-platform performance and server security."
+            desc: "Developed an AI-powered invoice extraction system using OpenAI LLM, RAG architecture, and FastAPI to automate and streamline processing of 5K+ financial documents with 30% higher accuracy and 50% less manual effort."
     },
     {
       role: "Software Engineer",
       company: "Ernst & Young",
       companylogo: require("./assets/images/eylogo.png"),
       date: "July 2022 – July 2023",
-        desc: "Developed a high-throughput file upload system using AWS S3 and RabbitMQ, scaling capacity by 10x and reducing stakeholder-reported delays. Engineered Redis-cached microservices and optimized APIs with OAuth 2.0, enhancing synchronization across distributed payment systems."
+        desc: "Engineered scalable document processing systems using Elasticsearch, Kafka, Redis, and Django to accelerate invoice handling for 1M+ files, boosting system responsiveness by 75% and enabling seamless workflows for 5K+ analysts."
 
     },
     {
@@ -204,14 +204,14 @@ const workExperiences = {
       company: "Infosys",
       companylogo: require("./assets/images/infosyslogo.png"),
       date: "Sep 2021 – June 2022",
-        desc: "Automated SAP data pipelines with Azure Logic Apps and Python, improving data accuracy by 50%. Deployed monitoring systems with Azure Monitor and Log Analytics, cutting incident response times by 20%."
+        desc: "Integrated SAP sales data with ERP systems and optimized large-scale transaction processing using Azure, Python, and SQL, enhancing data accuracy for 50K+ records daily and boosting CI/CD reliability with secure, test-driven deployments."
     },
     {
-      role: "Data Analyst Intern",
+      role: "SWE Intern",
       company: "Exposys Data Labs",
       companylogo: require("./assets/images/exposyslogo.jpg"),
       date: "June 2020 – Aug 2020",
-        desc: "Applied unsupervised clustering for better customer segmentation, improving accuracy by 20%. My strategic use of feature engineering and Python for predictive modeling enhanced the precision of data analysis, enabling more targeted insights."
+        desc: "Designed a scalable ETL pipeline using AWS S3, Glue, Lambda, and PySpark to analyze 4M+ daily YouTube records, enabling 60% faster region-specific insights through a Parquet-based data lake and Athena-driven analytics."
     }
   ]
 };
@@ -242,34 +242,11 @@ const bigProjects = {
                 //  you can add extra buttons here.
        ]
     },
-    {
-            image: require("./assets/images/ETL.png"),
-            projectName: "Cloud-Based ETL Pipeline for YouTube Data Analytics",
-        projectDesc: "Built a scalable ETL pipeline on AWS, utilizing EC2, S3, Glue, and Lambda for processing over 1GB of YouTube data with multi - language support, integrating Amazon Athena for rapid insights and boosting processing efficiency by 20%.",
-       footerLink: [
-       {
-             name: "View Project",
-               url: "https://github.com/dhanushgc"
-        }
-                //  you can add extra buttons here.
-       ]
-    },
-    {
-            image: require("./assets/images/invoice-extration.png"),
-            projectName: "AI-Powered Invoice Extraction with Vector Embeddings",
-        projectDesc: "Engineered an AI-driven invoice extraction solution leveraging Google Gemini and Python, enhancing data accuracy by 40% and eliminating manual templates with vector embeddings, ensuring scalable, efficient data processing",
-       footerLink: [
-       {
-             name: "View Project",
-               url: "https://github.com/dhanushgc/GenAI_Learning"
-        }
-                //  you can add extra buttons here.
-       ]
-    },
+    
     {
             image: require("./assets/images/cloud-storage.png"),
-            projectName: "Asynchronous File Upload System to Cloud Storage",
-            projectDesc: "This project is an Asynchronous File Upload System designed to efficiently handle file uploads to cloud storage (Azure Blob Storage).",
+            projectName: "Resilient File Upload Pipeline to Cloud Storage ",
+        projectDesc: "Built a fault-tolerant chunked file upload pipeline using Go, Celery, and RabbitMQ to reliably transfer 5GB+ files to Amazon S3, reducing latency by 40% and ensuring uninterrupted high-volume transaction processing.",
        footerLink: [
        {
              name: "View Project",
@@ -281,7 +258,7 @@ const bigProjects = {
     {
        image: require("./assets/images/PD_MRI_Class.png"),
             projectName: "Novel Approach to Parkinson’s Disease Classification Using MRI Images",
-            projectDesc: "Implemented XGBoost, SVM, and Random Forest classifiers to classify PD from MRI images with 78% accuracy. Applied wavelet transformations and GLCM techniques to enhance MRI image quality and extract diagnostic features.",
+        projectDesc: "Developed an ML pipeline for T2-weighted MRI analysis using wavelet transforms, GLCM, and LBP features, achieving 80.29% accuracy with ensemble models on disease pattern classification.",
        footerLink: [
        {
              name: "View Project",
@@ -292,8 +269,8 @@ const bigProjects = {
     },
     {
        image: require("./assets/images/ILPproject.png"),
-        projectName: "Fractal Tree Optimization with Parallelism",
-        projectDesc: "Accelerated tree generation by 12 times through advanced loop unrolling, SIMD, and OpenMP parallelization.",
+        projectName: "Real-Time Backend Optimization for Scalable Data Processing",
+        projectDesc: "Optimized high-throughput backend services using compiler techniques (GCC -O3, LLVM) and parallelization (SIMD, OpenMP), reducing execution time by 75% and enabling real-time, scalable data processing.",
        footerLink: [
        {
              name: "View Project",
@@ -301,18 +278,6 @@ const bigProjects = {
         }
                 //  you can add extra buttons here.
        ]
-    },
-    {
-      image: require("./assets/images/disneyproject.png"),
-          projectName: "Disney Clone Application",
-          projectDesc: "Engineered a React.js and Redux-based clone of Disney+, integrating Firebase for a fully functional, user-centric experience.",
-      footerLink: [
-        {
-          name: "View Project",
-          url: "https://github.com/dhanushgc/disney-plus-clone"
-        }
-        //  you can add extra buttons here.
-      ]
     },
     {
       image: require("./assets/images/anxietyproject.png"),
